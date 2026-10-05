@@ -1,0 +1,20 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "common",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/Common",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "layout",
+        "path": "/sitecore/layout/Renderings/Project/Common",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

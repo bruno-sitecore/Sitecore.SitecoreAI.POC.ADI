@@ -1,0 +1,126 @@
+﻿---
+ID: "6c3e3a50-ce92-4282-a681-b1ffb0792c0e"
+Parent: "bb81a942-713a-4da1-ab8e-e6d504899ed3"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Data/Promos/Promo CTA/ADI AI Electric Motor - Advanced"
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "831c47a0-529e-4245-8144-292155a2e1f9"
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <image mediaid="52c6caa2-9219-4dfb-ba90-7bb45bd50a65" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: "AI + Electric Motors: Want to Learn More?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165636Z
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: 
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.analog.com/en/ai/electric-motor-calibration-breakthrough.html" text="Dive Deeper" anchor=""/>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0f9a1a4-9343-4aa2-9baf-ca0418fb5e9f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><p>ADI research is advancing electric motor control with AI. Go deeper with a detailed look into our study.</p></div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260624T191743Z
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: 
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: Réduire l'écart de richesse
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165636Z
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link class="" id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" querystring="" anchor="" target="" title="" linktype="internal" text="En savoir plus" url="/Financial/ProsperaBank/Home/articles/closing-the-wealth-gap" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbbebd1b-ddb3-4a94-9251-b3b70288e082"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: Des conseils pratiques pour créer des voies équitables de croissance des revenues.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260624T191033Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: より豊かになるために
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165636Z
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" anchor="" target="" title="" linktype="internal" text="もっと読む" url="/Financial/ProsperaBank/Home/articles/closing-the-wealth-gap" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b4adcce-2904-4b26-8546-65f6fd666517"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: 収入増加のための公平な道筋を作るのに役立つ実用的なアドバイス。
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260624T191033Z

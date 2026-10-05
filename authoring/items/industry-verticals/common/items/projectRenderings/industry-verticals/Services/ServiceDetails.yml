@@ -1,0 +1,50 @@
+﻿---
+ID: "322d9305-5675-4bb7-83db-80a5c88aa7d8"
+Parent: "aebab619-9830-486c-8530-9c0afb60cf84"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: "/sitecore/layout/Renderings/Project/industry-verticals/Services/ServiceDetails"
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: ServiceDetails
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Value: "{4F69BE44-96BA-420E-8902-F29507FC2E0B}"
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: "{6CCCBCDE-5E95-44E4-AE66-CFE7D3A0589E}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "194a652f-61a6-4f6a-880c-d37b6f18665c"
+- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
+  Hint: OtherProperties
+  Value: IsRenderingsWithDynamicPlaceholders=true
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b58d065-fe74-43e3-ba20-54c9588b3011"
+      Hint: AllowedOnTemplates
+      Value: "{C0274E9D-2974-4766-A29A-0C4F9FAF8C86}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251211T004849Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b00f5824-7dd7-4f2a-895e-4971581015de"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251211T005659Z

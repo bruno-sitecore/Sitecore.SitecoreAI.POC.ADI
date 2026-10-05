@@ -1,0 +1,47 @@
+{
+  "renderingHosts": {
+
+    "prosperabank": {
+      "path": "./industry-verticals/prosperabank",
+      "nodeVersion": "22.11.0",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
+    }
+    
+  },
+  "deployItems": {
+    "modules": ["Project.IndustryVerticles", "forge", "skywings", "gridwell", "vitalis", "prosperabank", "Project.click-click-launch", "common"]
+  },
+  "postActions": {
+    "actions": {
+      "scsModules": {
+        "modules": [
+
+        ]
+      },
+      "warmUpCm": {
+        "urls": [
+          "/sitecore/shell",
+          "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
+          "/sitecore/client/Applications/Launchpad"
+        ]
+      },
+      "populateSchema": {
+        "indexNames": []
+      },
+      "reindex": {
+        "indexNames": []
+      }
+    }
+  },
+  "transforms": [
+    {
+        "xdtPath": "/App_Data/Xdts/web.config.xdt",
+        "targetPath": "/web.config"
+    }
+  ],
+  "authoringPath": "./authoring"
+}

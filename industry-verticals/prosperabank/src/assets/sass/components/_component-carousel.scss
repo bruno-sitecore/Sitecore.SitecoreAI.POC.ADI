@@ -1,0 +1,198 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.carousel {
+  --carousel-bg: #00325c;
+  --carousel-overlay: linear-gradient(
+    to right,
+    var(--carousel-bg) 0%,
+    var(--carousel-bg) 30%,
+    rgb(0 50 92 / 85%) 45%,
+    rgb(0 50 92 / 40%) 60%,
+    transparent 80%
+  );
+
+  position: relative;
+  padding: 0;
+  background-color: var(--carousel-bg);
+
+  @include media-breakpoint-down(md) {
+    --carousel-overlay: linear-gradient(
+      to bottom,
+      var(--carousel-bg) 0%,
+      rgb(0 50 92 / 92%) 50%,
+      rgb(0 50 92 / 70%) 100%
+    );
+  }
+
+  .carousel-inner {
+    overflow: hidden;
+  }
+
+  .carousel-indicators-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 2.5rem;
+    left: 0;
+    z-index: 2;
+    pointer-events: none;
+
+    @include media-breakpoint-up(md) {
+      bottom: 3.5rem;
+    }
+
+    @include media-breakpoint-down(md) {
+      bottom: 1.5rem;
+      padding: 0 $size-padding;
+    }
+
+    .container {
+      pointer-events: auto;
+    }
+  }
+
+  .carousel-indicators {
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.625rem;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+
+    li {
+      position: relative;
+      flex: 0 0 auto;
+      width: 0.75rem;
+      height: 0.75rem;
+      margin: 0;
+      text-indent: -999px;
+      background-color: #000;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      opacity: 1;
+      transition: background-color 0.2s ease;
+
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+
+    .active {
+      background-color: #fff;
+      border-color: #fff;
+    }
+  }
+
+  .carousel-item {
+    position: relative;
+    bottom: unset;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    background-color: var(--carousel-bg);
+    overflow: hidden;
+
+    .active {
+      display: flex;
+    }
+
+    @include media-breakpoint-up(md) {
+      height: 32rem;
+    }
+
+    @include media-breakpoint-down(md) {
+      min-height: 28rem;
+    }
+
+    .carousel-item-media,
+    img.carousel-item-media {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center right;
+
+      @include media-breakpoint-up(md) {
+        width: 65%;
+      }
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--carousel-overlay);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .side-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      padding: 2.5rem $size-padding 4.5rem;
+
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        padding: 3rem 0 5rem;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .carousel-content {
+      max-width: 36rem;
+    }
+
+    .carousel-title {
+      margin-bottom: 1rem;
+      font-size: clamp(1.75rem, 3vw, 2.75rem);
+      font-weight: 700;
+      line-height: 1.15;
+      color: #fff;
+    }
+
+    .carousel-body {
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #fff;
+
+      p {
+        margin-bottom: 0;
+        color: inherit;
+      }
+    }
+
+    .button-carousel {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #fff;
+      border: none;
+      border-radius: 0.25rem;
+      color: var(--carousel-bg);
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: filter 0.2s ease;
+
+      &:hover {
+        color: var(--carousel-bg);
+        filter: brightness(95%);
+      }
+    }
+  }
+}
+
+@import 'src/assets/sass/components/carousel/';

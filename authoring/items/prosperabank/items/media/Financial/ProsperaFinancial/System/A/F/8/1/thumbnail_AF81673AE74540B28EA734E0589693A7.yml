@@ -1,0 +1,31 @@
+﻿---
+ID: "6d45601c-a128-421e-90b8-70183c4489cf"
+Parent: "347236c7-2739-459a-bf9a-a741609487b4"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/Financial/ProsperaFinancial/System/A/F/8/1/thumbnail_AF81673AE74540B28EA734E0589693A7
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260624T172212Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ThumbnailsGenerator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ThumbnailsGenerator
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b61f5424-2679-43f0-852e-e3a728e4be8b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ThumbnailsGenerator
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260624T172212Z
