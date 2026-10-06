@@ -18,6 +18,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B57B8BB0-8BE2-4059-B6D4-BA62ACBBE276}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -41,41 +45,40 @@ Languages:
     Fields:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
-      Value: 
+      Value: <r />
     - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
       Hint: Content
       Value: |
-        <p><strong>The Power of MOBILE! Finance</strong></p>
-        <p>MOBILE! Finance is more than just a finance app&mdash;it's your ultimate financial companion, offering a comprehensive suite of features and tools to help you take control of your finances with ease and confidence. Whether you're tracking your spending, saving for a goal, or planning for retirement, MOBILE! Finance has everything you need to succeed.</p>
-        <p><a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=45&amp;w=149" alt="Download MOBILE! Finance from the App Store" style="height: 45px; width: 149px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=45&amp;w=151" alt="Google Play" style="height: 45px; width: 151px;" /></a></p>
-        <p><strong><br />
-        Key Features</strong></p>
-        <ul>
-            <li><strong><em>Personalized Budgeting</em></strong>: Create customized budgets tailored to your unique financial situation and track your spending in real-time.</li>
-            <li><strong><em>Goal-Based Savings</em></strong>: Set savings goals for all your financial aspirations, from a dream vacation to a down payment on a home, and track your progress effortlessly.</li>
-            <li><strong><em>Smart Investing</em></strong>: Access a range of investment options and tools to help you grow your wealth and achieve your long-term financial goals.</li>
-            <li><strong><em>Bill Management</em></strong>: Never miss a bill payment again with automatic bill reminders and payment scheduling features.</li>
-            <li><strong><em>Security and Privacy</em></strong>: Rest assured knowing that your sensitive financial information is protected by state-of-the-art security measures and encryption protocols.</li>
-        </ul>
-        <p><strong>Why Choose MOBILE! Finance?</strong></p>
-        <p>As part of the trusted online banking platform, MOBILE! Finance offers seamless integration with your existing banking accounts, providing you with a holistic view of your finances in one convenient location. Plus, with our user-friendly interface and intuitive design, managing your money has never been easier or more enjoyable.</p>
-        <p><strong>Get Started Today</strong></p>
-        <p>Ready to take control of your finances and unlock your financial potential? Download the MOBILE! Finance app now and join thousands of satisfied users who are already experiencing the benefits of modern banking with PLAY! Finance.</p>
+        <div class="ck-content"><p>Wilmington, MA and Pleasanton, CA - Sep 9 2026</p><ul><li>Accelerates ADI's delivery of “Physical Intelligence”, enabling systems to sense, reason, and act locally in real time within the constraints of the physical world</li><li>Adds Alif’s AI-native fusion processors, giving customers a scalable platform to quickly build full system solutions by combining next-generation digital with ADI’s leading edge analog portfolio</li><li>Expands ADI's total addressable market across industrial, data center infrastructure, defense, energy, robotics, digital health, and wearable applications by enabling complete, differentiated solutions</li></ul><p>Analog Devices, Inc. (NASDAQ: ADI) and Alif Semiconductor today announced that they have entered into a definitive agreement under which ADI will acquire Alif in an all-cash transaction for $1.35 billion.</p><p>Artificial intelligence is entering a new phase as models move beyond interpreting words and images to understanding context and interacting with the physical world. This transition requires systems that can reason from signals such as motion, sound, vibration, radio waves, and thermodynamics, and operate locally within demanding power, latency, security, and reliability constraints. At ADI, this is called Physical Intelligence.</p><p>Alif is redefining edge intelligence with a sophisticated platform of high-efficiency AI-native microcontrollers and fusion processors. Its heterogeneous architecture enables real-time sensor fusion, low-latency inference, and on-device AI, bringing advanced intelligence to demanding physical systems.</p><p>Combining ADI’s leadership in sensing, signal processing, power, connectivity, and application software with Alif’s leading-edge digital platform will accelerate the delivery of more complete Physical Intelligence solutions. Together, ADI and Alif can address a broader range of customers’ most complex system-level challenges.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261006T141306Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
-      Value: "We're thrilled to introduce MOBILE! Finance, a groundbreaking new finance app designed to revolutionize the way you bank and manage your finances."
+      Value: "Analog Devices, Inc. (NASDAQ: ADI) and Alif Semiconductor today announced that they have entered into a definitive agreement under which ADI will acquire Alif in an all-cash transaction for $1.35 billion."
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: "Introducing MOBILE! Finance"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "350b1d42-5a9e-4181-b644-a219e246f7ae"
+      Value: "b5750b9b-b38d-4b6c-b98a-a1186b2bbc4d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261006T141431Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
-      Value: "Introducing MOBILE! Finance: Your new financial companion app"
+      Value: "Analog Devices to Acquire Alif Semiconductor, Adding an AI-Native Processing Platform to Advance Physical Intelligence for the Next Generation of Real-World Systems"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
