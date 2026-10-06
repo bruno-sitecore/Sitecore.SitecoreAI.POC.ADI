@@ -2,7 +2,7 @@
 ID: "bc031618-4a29-40c4-b18c-4da61dbd6c53"
 Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
 Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
-Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/introducing-mobile-finance"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/analog-devices-to-acquire-alif-semiconductor"
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
@@ -37,9 +37,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c93dac43-2969-4cb0-80e6-5649e2ede81b"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Introducing MOBILE! Finance"
+    Value: Analog Devices to Acquire Alif Semiconductor
   Versions:
   - Version: 1
     Fields:
@@ -68,14 +71,14 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b5750b9b-b38d-4b6c-b98a-a1186b2bbc4d"
+      Value: "c2cfe259-9adb-4c4c-9814-5d349fb88eb9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20261006T141431Z
+      Value: 20261006T143428Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Analog Devices to Acquire Alif Semiconductor, Adding an AI-Native Processing Platform to Advance Physical Intelligence for the Next Generation of Real-World Systems"
