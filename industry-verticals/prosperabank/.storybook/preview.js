@@ -1,6 +1,7 @@
 import React from 'react';
-import { SitecoreContext, LayoutServicePageState } from '@sitecore-jss/sitecore-jss-nextjs';
-import { componentBuilder } from '../src/temp/componentBuilder';
+import { LayoutServicePageState, SitecoreProvider } from '@sitecore-content-sdk/nextjs';
+import components from '../.sitecore/component-map';
+import scConfig from '../sitecore.config';
 import '../src/assets/main.scss';
 import { I18nProvider } from 'next-localization';
 
@@ -25,52 +26,50 @@ export const parameters = {
   },
 };
 
-export const mockLayoutData = {
-  sitecore: {
-    context: {
-      pageEditing: false,
-      pageState: LayoutServicePageState.Normal,
-      Languages: [
-        {
-          Name: 'en',
-        },
-        {
-          Name: 'en-US',
-        },
-        {
-          Name: 'fr',
-        },
-        {
-          Name: 'fr-CA',
-        },
-        {
-          Name: 'es-ES',
-        },
-        {
-          Name: 'ja-JP',
-        },
-      ],
+const mockPage = {
+  locale: 'en',
+  siteName: 'prosperabank',
+  mode: {
+    name: LayoutServicePageState.Normal,
+    isNormal: true,
+    isPreview: false,
+    isEditing: false,
+    isDesignLibrary: false,
+    designLibrary: {
+      isVariantGeneration: false,
     },
-    setContext: () => {
-      // nothing
-    },
-    route: {
-      itemId: null,
+  },
+  layout: {
+    sitecore: {
+      context: {
+        pageEditing: false,
+        pageState: LayoutServicePageState.Normal,
+        language: 'en',
+        Languages: [
+          { Name: 'en' },
+          { Name: 'en-US' },
+          { Name: 'fr' },
+          { Name: 'fr-CA' },
+          { Name: 'es-ES' },
+          { Name: 'ja-JP' },
+        ],
+      },
+      route: null,
     },
   },
 };
 
 export const decorators = [
   (Story) => (
-    <SitecoreContext
-      componentFactory={componentBuilder.getComponentFactory({
-        isEditing: mockLayoutData.sitecore.context.pageEditing,
-      })}
-      layoutData={mockLayoutData}
+    <SitecoreProvider
+      api={scConfig.api}
+      componentMap={components}
+      page={mockPage}
+      loadImportMap={() => import('../.sitecore/import-map')}
     >
       <I18nProvider>
         <Story />
       </I18nProvider>
-    </SitecoreContext>
+    </SitecoreProvider>
   ),
 ];

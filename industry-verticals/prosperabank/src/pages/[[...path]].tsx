@@ -5,16 +5,11 @@ import NotFound from 'src/NotFound';
 import Layout from 'src/Layout';
 import { handleEditorFastRefresh, extractPath } from '@sitecore-content-sdk/nextjs/utils';
 import { isDesignLibraryPreviewData } from '@sitecore-content-sdk/nextjs/editing';
-import {
-  SitecorePageProps,
-  SitecoreProvider,
-  ComponentPropsContext,
-  StaticPath,
-  SiteInfo,
-} from '@sitecore-content-sdk/nextjs';
+import { SitecorePageProps, StaticPath, SiteInfo } from '@sitecore-content-sdk/nextjs';
 import components from '.sitecore/component-map';
 import scConfig from 'sitecore.config';
 import client from 'lib/sitecore-client';
+import Providers from 'src/Providers';
 
 const SitecorePage = ({ notFound, componentProps, page }: SitecorePageProps): JSX.Element => {
   useEffect(() => {
@@ -28,16 +23,9 @@ const SitecorePage = ({ notFound, componentProps, page }: SitecorePageProps): JS
   }
 
   return (
-    <ComponentPropsContext value={componentProps || {}}>
-      <SitecoreProvider
-        componentMap={components}
-        api={scConfig.api}
-        page={page}
-        loadImportMap={() => import('.sitecore/import-map')}
-      >
-        <Layout page={page} />
-      </SitecoreProvider>
-    </ComponentPropsContext>
+    <Providers componentProps={componentProps} page={page}>
+      <Layout page={page} />
+    </Providers>
   );
 };
 
