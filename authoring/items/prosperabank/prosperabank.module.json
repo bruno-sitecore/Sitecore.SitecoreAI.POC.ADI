@@ -32,6 +32,12 @@
         "path": "/sitecore/media library/Project/AnalogDevices",
         "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "workflow",
+        "path": "/sitecore/System/Workflows/Analog Workflow",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
       }
     ]
   }
