@@ -25,13 +25,13 @@
         "name": "content",
         "path": "/sitecore/content/AnalogDevices",
         "scope": "ItemAndDescendants",
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "CreateOnly"
       },
       {
         "name": "media",
         "path": "/sitecore/media library/Project/AnalogDevices",
         "scope": "ItemAndDescendants", 
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "CreateOnly"
       },
       {
         "name": "workflow",
