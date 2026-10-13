@@ -50,6 +50,7 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
               <div className="content-wrapper">
                 <h6 className="eyebrow-accent">
                   <Text field={props.fields.Eyebrow} />
+                  <H2>HELLO, WORLD!</H2>
                 </h6>
                 <h1 className="display-4 fw-bold mb-3">
                   <Text field={props.fields.Title} />

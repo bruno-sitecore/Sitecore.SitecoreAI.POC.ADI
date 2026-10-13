@@ -24,6 +24,7 @@ interface Fields {
   Image: ImageField;
   Link: LinkField;
   Link2: LinkField;
+  Text2: Field<string>;
 }
 
 export type PromoCtaProps = ComponentProps & {
@@ -43,6 +44,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
       <div className="container">
         <div className="row row-gap-4 main-content align-items-center">
           <div className="col-lg-5 text-center text-lg-start">
+            <Text field={props.fields.Text2} />
             <h6 className="eyebrow-accent">
               <Text field={props.fields.Eyebrow} />
             </h6>
