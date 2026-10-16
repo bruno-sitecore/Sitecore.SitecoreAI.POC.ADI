@@ -38,17 +38,18 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "06728089-9756-406b-801d-4f9cb6416322"
+      Value: "657789c9-b580-4ec7-bc16-752f25da75ba"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
-      Value: Actionable advice to help create equitable pathways for income growth.
+      Value: |
+        <div class="ck-content"><p>Actionable advice to help create equitable pathways for income growth.</p></div>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T165658Z
+      Value: 20261013T145831Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 

@@ -321,7 +321,8 @@ Languages:
             </r>
             <r
               uid="{1A516B9B-CC7B-49C9-A8EB-5BE281A98612}"
-              p:after="r[@uid='{D54D53B4-1AA4-4998-9BDF-EB934C32CFB6}']" />
+              p:after="r[@uid='{D54D53B4-1AA4-4998-9BDF-EB934C32CFB6}']"
+              s:ds="6b8e8ac0-4114-413b-b961-a86d53421b90" />
             <r
               uid="{0ED2D2C2-E9EF-4E40-B040-6289CB174E03}">
               <p:d />
@@ -347,7 +348,7 @@ Languages:
         sitecore\kaitlyn.folsom@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fdd78ed8-4623-4bc0-821b-73b97b0e8b9b"
+      Value: "61242fd2-b4e1-4246-96bb-a5f3b1d0b6a5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -357,7 +358,7 @@ Languages:
       Value: "PLAY! Financial"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260624T173256Z
+      Value: 20261013T150250Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -3,11 +3,34 @@ ID: "bb81a942-713a-4da1-ab8e-e6d504899ed3"
 Parent: "e80b2eb2-f3c4-4c86-b76c-041808116d0e"
 Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
 Path: /sitecore/content/AnalogDevices/Prospera Bank/Data/Promos/Promo CTA
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C0943942-AE0F-4205-86FA-84884CCE4A53}
+    {8FE7F8DC-CB5D-42C2-99F8-76608C243F10}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "54d12fa7-85e8-40d0-98cd-eeecbad10e26"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261013T163343Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "406e25b9-8040-449c-be17-acf72513b53b"
+      Value: "85b4e6d6-3417-4fd4-84ca-6059b898bfae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261013T163343Z
