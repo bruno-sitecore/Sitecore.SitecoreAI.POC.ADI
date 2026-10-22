@@ -40,7 +40,7 @@
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "next:start"
-    },
+    }
     
   },
   "deployItems": {
