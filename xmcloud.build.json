@@ -1,6 +1,16 @@
 {
   "renderingHosts": {
     
+    "prosperabank": {
+      "path": "./industry-verticals/prosperabank",
+      "nodeVersion": "24.21.0",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
+    },
+
     "nextjsstarter": {
       "path": "./industry-verticals/kit-nextjs-skate-park",
       "nodeVersion": "24.14.1",
@@ -11,6 +21,7 @@
       "buildCommand": "build",
       "runCommand": "next:start"
     },
+
     "kit-nextjs-article-starter": {
       "path": "./industry-verticals/kit-nextjs-article-starter",
       "nodeVersion": "24.14.1",
@@ -21,6 +32,7 @@
       "buildCommand": "build",
       "runCommand": "next:start"
     },
+
     "kit-nextjs-location-starter": {
       "path": "./industry-verticals/kit-nextjs-location-finder",
       "nodeVersion": "24.14.1",
@@ -41,6 +53,7 @@
       "buildCommand": "build",
       "runCommand": "next:start"
     },
+
     "basic-nextjs": {
       "path": "./industry-verticals/basic-nextjs",
       "nodeVersion": "24.14.1",
@@ -51,6 +64,7 @@
       "buildCommand": "build",
       "runCommand": "next:start"
     }
+    
   },
   "postActions": {
     "actions": {
