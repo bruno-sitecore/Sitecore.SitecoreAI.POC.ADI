@@ -1,4 +1,4 @@
-﻿---
+---
 ID: "787dff86-1414-4260-9d94-830646318d97"
 Parent: "bd372d9d-6e4f-4ae9-a54c-dbc2acdebe2a"
 Template: "bd372d9d-6e4f-4ae9-a54c-dbc2acdebe2a"
@@ -16,7 +16,7 @@ SharedFields:
 Languages:
 - Language: en
   Versions:
-  - Version: 1
+  - Version: 2
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
@@ -39,7 +39,7 @@ Languages:
     - ID: "84a2a397-786e-43bd-85a0-bfbcc51fc3f3"
       Hint: image
       Value: |
-        <image mediaid="{BBFF51AC-334E-4023-A26F-E051EBEDB369}" />
+        <image />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "9dcb454c-83dd-423d-907d-5a0e93b08eda"

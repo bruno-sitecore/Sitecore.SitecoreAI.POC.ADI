@@ -13,7 +13,7 @@ SharedFields:
 Languages:
 - Language: en
   Versions:
-  - Version: 1
+  - Version: 2
     Fields:
     - ID: "21aae250-ac81-46a1-a336-29a030bfc511"
       Hint: heading

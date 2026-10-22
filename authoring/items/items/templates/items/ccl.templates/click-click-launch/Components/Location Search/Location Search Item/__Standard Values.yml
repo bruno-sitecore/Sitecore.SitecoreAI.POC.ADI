@@ -16,7 +16,7 @@ SharedFields:
 Languages:
 - Language: en
   Versions:
-  - Version: 1
+  - Version: 2
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created

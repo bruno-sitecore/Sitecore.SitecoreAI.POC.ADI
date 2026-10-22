@@ -19,7 +19,7 @@ SharedFields:
 Languages:
 - Language: en
   Versions:
-  - Version: 1
+  - Version: 2
     Fields:
     - ID: "121f4e8b-049b-4c7e-9f73-fddf43f4c2a9"
       Hint: titleRequired

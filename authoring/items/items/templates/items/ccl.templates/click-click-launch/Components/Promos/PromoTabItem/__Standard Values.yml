@@ -13,7 +13,7 @@ SharedFields:
 Languages:
 - Language: en
   Versions:
-  - Version: 1
+  - Version: 2
     Fields:
     - ID: "22427604-b117-4985-a6a4-cc8aba4e044d"
       Hint: image 1

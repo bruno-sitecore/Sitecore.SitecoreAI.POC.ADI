@@ -16,7 +16,7 @@ SharedFields:
 Languages:
 - Language: en
   Versions:
-  - Version: 1
+  - Version: 2
     Fields:
     - ID: "23c31b2b-4652-4755-94b0-184bca384219"
       Hint: heading
