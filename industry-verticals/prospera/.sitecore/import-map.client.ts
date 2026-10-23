@@ -36,9 +36,8 @@ import { getCookieValueClientSide } from '@sitecore-content-sdk/analytics-core/u
 import { fetchProfileIdFromEdgeProxy } from '@sitecore-content-sdk/personalize/internal';
 import config from 'sitecore.config';
 import { clearSessionEvents, installSessionEventTracking, readSessionEvents, SESSION_EVENTS_CHANGED } from 'lib/session-event-log';
-import PreviewSearch from 'src/components/search/PreviewSearch';
 import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, PageController, WidgetsProvider, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
-import { PreviewSearch as PreviewSearch_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7, SortSelect, Pagination as Pagination_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
+import { PreviewSearch, SortSelect, Pagination as Pagination_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
 import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon, ChevronDownIcon } from '@radix-ui/react-icons';
 import HomeHighlighted from 'src/components/legacysearch/HomeHighlighted';
 import Spinner from 'src/components/legacysearch/Spinner';
@@ -265,12 +264,6 @@ const importMap = [
     ]
   },
   {
-    module: 'src/components/search/PreviewSearch',
-    exports: [
-      { name: 'default', value: PreviewSearch },
-    ]
-  },
-  {
     module: '@sitecore-search/react',
     exports: [
       { name: 'usePreviewSearchActions', value: usePreviewSearchActions },
@@ -289,7 +282,7 @@ const importMap = [
   {
     module: '@sitecore-search/ui',
     exports: [
-      { name: 'PreviewSearch', value: PreviewSearch_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 },
+      { name: 'PreviewSearch', value: PreviewSearch },
       { name: 'SortSelect', value: SortSelect },
       { name: 'Pagination', value: Pagination_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 },
       { name: 'AccordionFacets', value: AccordionFacets },

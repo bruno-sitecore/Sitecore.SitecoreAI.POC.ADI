@@ -24,7 +24,7 @@ export const Default = (props: EyebrowProps): JSX.Element => {
   return (
     <>
       <div
-        className={`component eyebrow relative z-[60] bg-white ${props.params.styles?.trimEnd() ?? ''}`}
+        className={`component eyebrow relative z-[60] ${props.params.styles?.trimEnd() ?? ''}`}
         id={id || undefined}
       >
         <div
