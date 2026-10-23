@@ -5,31 +5,37 @@
     "includes": [
       {
         "name": "templates",
-        "path": "/sitecore/templates/Project/financial",
+        "path": "/sitecore/templates/Project/AnalogDevices",
         "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "layout",
-        "path": "/sitecore/layout/Renderings/Project/financial",
+        "path": "/sitecore/layout/Renderings/Project/AnalogDevices",
         "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "placeholder-settings",
-        "path": "/sitecore/layout/Placeholder Settings/Project/Financial",
+        "path": "/sitecore/layout/Placeholder Settings/Project/AnalogDevices",
         "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "content",
-        "path": "/sitecore/content/financial",
+        "path": "/sitecore/content/AnalogDevices",
         "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "media",
-        "path": "/sitecore/media library/Project/financial",
+        "path": "/sitecore/media library/Project/AnalogDevices",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "workflow",
+        "path": "/sitecore/System/Workflows/Analog Workflow",
         "scope": "ItemAndDescendants", 
         "allowedPushOperations": "CreateUpdateAndDelete"
       }
