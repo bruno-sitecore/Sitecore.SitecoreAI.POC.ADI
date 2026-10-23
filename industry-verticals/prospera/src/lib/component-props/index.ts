@@ -1,5 +1,11 @@
 import { ComponentParams, ComponentRendering, Page } from '@sitecore-content-sdk/nextjs';
 
+export type GraphQLField<T> = {
+  jsonValue: T;
+};
+
+export type CompatibleField<T> = T | GraphQLField<T> | { jsonValue?: T };
+
 /**
  * Shared component props
  */
@@ -31,4 +37,15 @@ export type ComponentProps = {
  */
 export type ComponentWithContextProps = ComponentProps & {
   page: Page;
+};
+
+export const getFieldValue = <T>(field: CompatibleField<T> | null | undefined): T | undefined => {
+  if (!field) return undefined;
+
+  const maybeWrapped = field as { jsonValue?: T };
+  if ('jsonValue' in maybeWrapped) {
+    return maybeWrapped.jsonValue;
+  }
+
+  return field as T;
 };
