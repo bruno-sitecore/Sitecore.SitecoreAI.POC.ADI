@@ -69,7 +69,7 @@ const ContentAccordionItem = ({
         </button>
       </h3>
       {(isExpanded || isEditing) && (
-        <div className="content-accordion-panel rich-text" id={panelId} role="region">
+        <div className="content-accordion-panel" id={panelId} role="region">
           <RichText field={item.content} />
         </div>
       )}

@@ -1,27 +1,39 @@
+$adi-navy: #003f6f;
+$adi-blue: #005d96;
+$adi-ink: #13212a;
+$adi-line: #d5dce3;
+$adi-panel: #f7f8fa;
+
 .content-accordion {
-  color: var(--text-body);
+  color: $adi-ink;
+  background: #fff;
 
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
   }
 
   .content-accordion-title {
-    margin-bottom: 1.5rem;
+    margin: 0 0 0.75rem;
+    color: $adi-ink;
+    font-size: 1.75rem;
     font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .content-accordion-list {
+    border-bottom: 1px solid $adi-line;
   }
 
   .content-accordion-item {
-    border-top: 1px solid var(--border-color);
-
-    &:last-child {
-      border-bottom: 1px solid var(--border-color);
-    }
+    border-top: 1px solid $adi-line;
+    background: #fff;
   }
 
   .content-accordion-heading {
     margin: 0;
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
   }
 
   button {
@@ -30,51 +42,101 @@
     justify-content: space-between;
     gap: 1.5rem;
     width: 100%;
-    padding: 1.25rem 0;
-    color: inherit;
+    padding: 1.125rem 1.25rem;
+    color: $adi-ink;
     font: inherit;
+    font-weight: 600;
     text-align: left;
+    cursor: pointer;
 
-    @media (prefers-reduced-motion: reduce) {
-      .content-accordion-icon {
-        transition: none;
-      }
+    &:hover {
+      color: $adi-navy;
     }
+
+    &:focus-visible {
+      outline: 2px solid $adi-blue;
+      outline-offset: 2px;
+    }
+  }
+
+  .expanded button {
+    color: $adi-navy;
   }
 
   .content-accordion-icon {
-    position: relative;
     flex-shrink: 0;
-    width: 1rem;
-    height: 1rem;
+    width: 0.55rem;
+    height: 0.55rem;
+    margin-right: 0.35rem;
+    border-right: 2px solid $adi-blue;
+    border-bottom: 2px solid $adi-blue;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease-in-out;
 
-    &::before,
-    &::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      background-color: currentColor;
-      transform: translate(-50%, -50%);
-    }
-
-    &::before {
-      width: 1rem;
-      height: 2px;
-    }
-
-    &::after {
-      width: 2px;
-      height: 1rem;
-      transition: transform 0.2s ease-in-out;
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
     }
   }
 
-  .expanded .content-accordion-icon::after {
-    transform: translate(-50%, -50%) scaleY(0);
+  .expanded .content-accordion-icon {
+    transform: rotate(225deg);
   }
 
   .content-accordion-panel {
-    padding: 0 0 1.5rem;
+    margin: 0;
+    padding: 0.75rem 1.25rem 1.25rem;
+    background: $adi-panel;
+    color: $adi-ink;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 1rem 0 0.35rem;
+      color: $adi-navy;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.4;
+
+      &:first-child {
+        margin-top: 0.75rem;
+      }
+    }
+
+    p {
+      margin: 0.35rem 0 0.75rem;
+    }
+
+    ul,
+    ol {
+      margin: 0.25rem 0 0.85rem;
+      padding-left: 1.25rem;
+    }
+
+    ul li {
+      list-style: disc;
+      margin: 0.2rem 0;
+    }
+
+    ol li {
+      list-style: decimal;
+      margin: 0.2rem 0;
+    }
+
+    a {
+      color: $adi-blue;
+      font-size: 1em;
+      text-decoration: none;
+
+      &:hover {
+        color: $adi-navy;
+        text-decoration: underline;
+      }
+    }
   }
 }
