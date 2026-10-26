@@ -16,6 +16,7 @@ import * as SearchResults from 'src/components/search/SearchResults';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as MoreLikeThis from 'src/components/search/MoreLikeThis';
 import * as ColumnSplitter from 'src/components/pagestructure/ColumnSplitter';
+import * as Container from 'src/components/pagestructure/Container';
 import * as TwoColumnCta from 'src/components/pagecontent/TwoColumnCta';
 import * as ThreeColumnCta from 'src/components/pagecontent/ThreeColumnCta';
 import * as Testimonials from 'src/components/pagecontent/Testimonials';
@@ -88,6 +89,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['PreviewSearch', { ...PreviewSearch }],
   ['MoreLikeThis', { ...MoreLikeThis }],
   ['ColumnSplitter', { ...ColumnSplitter }],
+  ['Container', { ...Container }],
   ['TwoColumnCta', { ...TwoColumnCta }],
   ['ThreeColumnCta', { ...ThreeColumnCta }],
   ['Testimonials', { ...Testimonials }],

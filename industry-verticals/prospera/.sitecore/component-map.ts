@@ -94,7 +94,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['PreviewSearch', { ...PreviewSearch, componentType: 'client' }],
   ['MoreLikeThis', { ...MoreLikeThis, componentType: 'client' }],
   ['RowSplitter', { ...RowSplitter }],
-  ['Container', { ...Container }],
+  ['Container', { ...Container, componentType: 'client' }],
   ['ColumnSplitter', { ...ColumnSplitter, componentType: 'client' }],
   ['TwoColumnCta', { ...TwoColumnCta, componentType: 'client' }],
   ['ThreeColumnCta', { ...ThreeColumnCta, componentType: 'client' }],
