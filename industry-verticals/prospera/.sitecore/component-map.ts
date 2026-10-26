@@ -15,6 +15,8 @@ import * as ApplicationForm from 'src/components/utilities/ApplicationForm';
 import * as SearchResults from 'src/components/search/SearchResults';
 import * as PreviewSearch from 'src/components/search/PreviewSearch';
 import * as MoreLikeThis from 'src/components/search/MoreLikeThis';
+import * as RowSplitter from 'src/components/pagestructure/RowSplitter';
+import * as Container from 'src/components/pagestructure/Container';
 import * as ColumnSplitter from 'src/components/pagestructure/ColumnSplitter';
 import * as TwoColumnCta from 'src/components/pagecontent/TwoColumnCta';
 import * as ThreeColumnCta from 'src/components/pagecontent/ThreeColumnCta';
@@ -91,6 +93,8 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SearchResults', { ...SearchResults, componentType: 'client' }],
   ['PreviewSearch', { ...PreviewSearch, componentType: 'client' }],
   ['MoreLikeThis', { ...MoreLikeThis, componentType: 'client' }],
+  ['RowSplitter', { ...RowSplitter }],
+  ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter, componentType: 'client' }],
   ['TwoColumnCta', { ...TwoColumnCta, componentType: 'client' }],
   ['ThreeColumnCta', { ...ThreeColumnCta, componentType: 'client' }],

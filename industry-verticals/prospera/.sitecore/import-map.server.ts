@@ -8,9 +8,9 @@ import {
 // end of built-in imports
 
 import { jsx, jsxs } from 'react/jsx-runtime';
-import componentMap from '.sitecore/component-map';
-import { AppPlaceholder, NextImage, Text } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
+import { Placeholder, AppPlaceholder, NextImage, Text } from '@sitecore-content-sdk/nextjs';
+import componentMap from '.sitecore/component-map';
 import { CompatibleLink } from 'components/content-sdk/CompatibleLink';
 import { getFieldValue } from 'lib/component-props';
 
@@ -23,23 +23,24 @@ const importMap = [
     ]
   },
   {
-    module: '.sitecore/component-map',
+    module: 'react',
     exports: [
-      { name: 'default', value: componentMap },
+      { name: 'default', value: React },
     ]
   },
   {
     module: '@sitecore-content-sdk/nextjs',
     exports: [
+      { name: 'Placeholder', value: Placeholder },
       { name: 'AppPlaceholder', value: AppPlaceholder },
       { name: 'NextImage', value: NextImage },
       { name: 'Text', value: Text },
     ]
   },
   {
-    module: 'react',
+    module: '.sitecore/component-map',
     exports: [
-      { name: 'default', value: React },
+      { name: 'default', value: componentMap },
     ]
   },
   {
