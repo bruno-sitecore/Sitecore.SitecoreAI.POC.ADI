@@ -1,0 +1,95 @@
+---
+ID: "d0aa7129-dcb8-468f-8b32-35ffe26d5c03"
+Parent: "da926996-ca6e-42c6-ad15-bd6b31494859"
+Template: "6b52518f-3493-4fd2-9c1f-093025eb628c"
+Path: /sitecore/content/AnalogDevices/Prospera Bank/Data/Promos/Content Accordion/Altera FPGA Families
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d85e1a38-25ef-4256-b752-88b7cdaf1d35"
+      Hint: SectionTitle
+      Value: Altera FPGA Families
+    - ID: "c809b0c7-dff2-4f56-8980-df550a977e3f"
+      Hint: Title1
+      Value: Agilex 7
+    - ID: "c5a178c0-d4c6-4fd5-8f0f-58a1e2bf6758"
+      Hint: Content1
+      Value: |
+        <h4>I-Series</h4>
+        <ul>
+        <li>Intel Agilex 7 I-Series Development Kit (2xR-Tile and 1xF-Tile)</li>
+        <li>Intel Agilex 7 I-Series Development Kit (Alternative Monolithic)</li>
+        <li>Intel Agilex 7 I-Series Development Kit (Alternative µModule)</li>
+        </ul>
+        <h4>F-Series</h4>
+        <ul>
+        <li>Intel Agilex 7 FPGA F-Series Development Kit (P-Tile and E-Tile)</li>
+        <li>Intel Agilex 7 FPGA F-Series Development Kit (Alternative Monolithic)</li>
+        <li>Intel Agilex 7 FPGA F-Series Development Kit (Alternative µModule)</li>
+        </ul>
+    - ID: "7f3efae3-e277-45a0-8274-a286451fbba0"
+      Hint: Title2
+      Value: Stratix
+    - ID: "ee51d0e2-29de-41ae-bc35-544062bb0d8f"
+      Hint: Content2
+      Value: |
+        <h4>Stratix V</h4>
+        <ul>
+        <li>Altera Stratix V GX</li>
+        <li>Altera Transceiver Signal Integrity Kit, Stratix V GX Edition</li>
+        <li>Altera 100G Kit, Stratix V Edition</li>
+        </ul>
+        <h4>Stratix IV</h4>
+        <ul>
+        <li>Altera Stratix IV E</li>
+        <li>Altera Stratix IV GX</li>
+        <li>Terasic TR4 Stratix IV</li>
+        </ul>
+    - ID: "50a82fce-15e1-4aa5-8deb-c89283fa3576"
+      Hint: Title3
+      Value: Arria
+    - ID: "a642eb27-4ca4-4387-a5fa-c0b438eea458"
+      Hint: Content3
+      Value: |
+        <h4>Arria 10</h4>
+        <ul>
+        <li>Altera Arria 10 FPGA</li>
+        <li>Altera Arria 10 SoC</li>
+        </ul>
+        <h4>Arria V</h4>
+        <ul>
+        <li>Altera Arria V GT</li>
+        <li>Altera Arria V GX FPGA</li>
+        <li>Altera Arria V SoC and SoC Embedded Design</li>
+        </ul>
+    - ID: "663b4429-95af-4001-a444-a929674bb065"
+      Hint: Title4
+      Value: Cyclone
+    - ID: "0f5702b6-58f6-4694-8a41-52c7f1113ed3"
+      Hint: Content4
+      Value: |
+        <h4>Cyclone V</h4>
+        <ul>
+        <li>Altera Cyclone V E</li>
+        <li>Altera Cyclone V SoC</li>
+        <li>Terasic DE10-Nano-SoC</li>
+        </ul>
+        <h4>Cyclone IV</h4>
+        <ul>
+        <li>Altera Cyclone IV GX</li>
+        <li>Terasic DE2i-150 Cyclone IV</li>
+        </ul>
+    - ID: "28ea8f88-f5d1-4728-83c6-c77bf1723c1e"
+      Hint: Title5
+      Value: MAX 10
+    - ID: "828c78ef-a52d-453b-8d28-d6606a55f525"
+      Hint: Content5
+      Value: |
+        <ul>
+        <li>Max 10 NEEK</li>
+        </ul>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6be0daf4-3f0f-4286-a10b-498110e147a4"

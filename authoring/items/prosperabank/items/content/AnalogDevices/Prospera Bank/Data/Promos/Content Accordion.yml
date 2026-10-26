@@ -1,0 +1,17 @@
+---
+ID: "da926996-ca6e-42c6-ad15-bd6b31494859"
+Parent: "e80b2eb2-f3c4-4c86-b76c-041808116d0e"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: /sitecore/content/AnalogDevices/Prospera Bank/Data/Promos/Content Accordion
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{6B52518F-3493-4FD2-9C1F-093025EB628C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "faf191cf-d0c2-44e6-bb3c-c161e13b6546"

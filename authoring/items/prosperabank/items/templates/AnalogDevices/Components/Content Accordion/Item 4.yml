@@ -1,0 +1,17 @@
+---
+ID: "67c67f17-6222-40ca-9cdb-1e18d167d556"
+Parent: "6b52518f-3493-4fd2-9c1f-093025eb628c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/AnalogDevices/Components/Content Accordion/Item 4
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6149631d-3b6b-47d3-8fab-2419b9a0abc3"

@@ -1,0 +1,80 @@
+.content-accordion {
+  color: var(--text-body);
+
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
+  .content-accordion-title {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+
+  .content-accordion-item {
+    border-top: 1px solid var(--border-color);
+
+    &:last-child {
+      border-bottom: 1px solid var(--border-color);
+    }
+  }
+
+  .content-accordion-heading {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1.25rem 0;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+
+    @media (prefers-reduced-motion: reduce) {
+      .content-accordion-icon {
+        transition: none;
+      }
+    }
+  }
+
+  .content-accordion-icon {
+    position: relative;
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: currentColor;
+      transform: translate(-50%, -50%);
+    }
+
+    &::before {
+      width: 1rem;
+      height: 2px;
+    }
+
+    &::after {
+      width: 2px;
+      height: 1rem;
+      transition: transform 0.2s ease-in-out;
+    }
+  }
+
+  .expanded .content-accordion-icon::after {
+    transform: translate(-50%, -50%) scaleY(0);
+  }
+
+  .content-accordion-panel {
+    padding: 0 0 1.5rem;
+  }
+}

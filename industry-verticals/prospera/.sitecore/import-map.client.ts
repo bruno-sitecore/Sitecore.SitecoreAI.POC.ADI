@@ -9,7 +9,7 @@ import {
 // end of built-in imports
 
 import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
-import { useEffect, useState, Suspense, useCallback, useMemo, useRef, forwardRef } from 'react';
+import { useEffect, useState, Suspense, useCallback, useMemo, useRef, useId, forwardRef } from 'react';
 import React from 'react';
 import { getSiteThemeClass } from 'lib/site-theme';
 import { Text, useSitecore, NextImage, Link, RichText, Placeholder, withDatasourceCheck, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, AppPlaceholder, CdpHelper } from '@sitecore-content-sdk/nextjs';
@@ -75,6 +75,7 @@ const importMap = [
       { name: 'useCallback', value: useCallback },
       { name: 'useMemo', value: useMemo },
       { name: 'useRef', value: useRef },
+      { name: 'useId', value: useId },
       { name: 'forwardRef', value: forwardRef },
       { name: 'default', value: React },
     ]

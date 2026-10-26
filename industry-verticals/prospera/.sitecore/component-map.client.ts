@@ -38,6 +38,7 @@ import * as FiveColumnCta from 'src/components/pagecontent/FiveColumnCta';
 import * as Features from 'src/components/pagecontent/Features';
 import * as DocumentsList from 'src/components/pagecontent/DocumentsList';
 import * as CtaBanner from 'src/components/pagecontent/CtaBanner';
+import * as ContentAccordion from 'src/components/pagecontent/ContentAccordion';
 import * as Comparison from 'src/components/pagecontent/Comparison';
 import * as Carousel from 'src/components/pagecontent/Carousel';
 import * as AuthorWidget from 'src/components/pagecontent/AuthorWidget';
@@ -111,6 +112,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Features', { ...Features }],
   ['DocumentsList', { ...DocumentsList }],
   ['CtaBanner', { ...CtaBanner }],
+  ['ContentAccordion', { ...ContentAccordion }],
   ['Comparison', { ...Comparison }],
   ['Carousel', { ...Carousel }],
   ['AuthorWidget', { ...AuthorWidget }],
