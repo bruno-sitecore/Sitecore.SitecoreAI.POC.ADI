@@ -22,6 +22,28 @@ type NavigationProps = {
   relativeLevel: number;
 };
 
+const GET_A_LOAN_ITEM_ID = 'd26af0f1-5e54-41f0-b026-c96d4d2beea3';
+
+/** The Get a Loan page is rendered as a button in the main navigation. */
+const isGetALoanNavButton = (element: Fields): boolean => {
+  if (!element || typeof element !== 'object') {
+    return false;
+  }
+
+  const id = (element.Id ?? '').replace(/[{}]/g, '').toLowerCase();
+  if (id === GET_A_LOAN_ITEM_ID) {
+    return true;
+  }
+
+  const styles = Array.isArray(element.Styles) ? element.Styles : [];
+  if (styles.includes('button-nav-item')) {
+    return true;
+  }
+
+  const href = typeof element.Href === 'string' ? element.Href.toLowerCase().split('?')[0] : '';
+  return /(^|\/)get-a-loan\/?$/.test(href);
+};
+
 const getNavigationText = function (props: NavigationProps): JSX.Element | string {
   let text;
 
@@ -103,7 +125,9 @@ export const Default = (props: NavigationProps): JSX.Element => {
   };
 
   const list = Object.values(props.fields)
-    .filter((element) => element)
+    .filter(
+      (element): element is Fields => Boolean(element) && !isGetALoanNavButton(element as Fields)
+    )
     .map((element: Fields, key: number) => (
       <NavigationList
         key={`${key}${element.Id}`}
@@ -170,14 +194,16 @@ const NavigationList = (props: NavigationProps) => {
 
   let children: JSX.Element[] = [];
   if (props.fields.Children && props.fields.Children.length) {
-    children = props.fields.Children.map((element: Fields, index: number) => (
-      <NavigationList
-        key={`${index}${element.Id}`}
-        fields={element}
-        handleClick={props.handleClick}
-        relativeLevel={props.relativeLevel + 1}
-      />
-    ));
+    children = props.fields.Children.filter((element) => !isGetALoanNavButton(element)).map(
+      (element: Fields, index: number) => (
+        <NavigationList
+          key={`${index}${element.Id}`}
+          fields={element}
+          handleClick={props.handleClick}
+          relativeLevel={props.relativeLevel + 1}
+        />
+      )
+    );
   }
 
   return (

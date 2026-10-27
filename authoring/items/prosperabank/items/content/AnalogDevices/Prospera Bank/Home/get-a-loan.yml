@@ -7,6 +7,9 @@ SharedFields:
 - ID: "0d83e59a-c3f1-41be-81b2-762d35e0799f"
   Hint: NavigationClass
   Value: "{367BA3F8-234E-4964-AD4F-63C46CD259A5}"
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: 
