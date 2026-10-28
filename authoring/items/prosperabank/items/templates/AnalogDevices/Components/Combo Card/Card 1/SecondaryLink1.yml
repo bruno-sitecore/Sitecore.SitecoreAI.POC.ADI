@@ -1,0 +1,25 @@
+---
+ID: "934b4c82-219c-4c73-93e4-a0325ee522c6"
+Parent: "dd55c6ed-10f4-4003-ae80-cd7baf14d1ee"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/AnalogDevices/Components/Combo Card/Card 1/SecondaryLink1
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Secondary link
+
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9739ca03-3e17-4989-97d6-e98bddd1b57c"

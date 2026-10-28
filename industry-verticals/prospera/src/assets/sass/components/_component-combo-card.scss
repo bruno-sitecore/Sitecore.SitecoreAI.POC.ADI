@@ -1,0 +1,390 @@
+.combo-card {
+  --combo-card-text: #101820;
+  --combo-card-blue: #0067b9;
+  --combo-card-blue-hover: #00427a;
+  --combo-card-border: #e0e1e6;
+  --combo-card-surface: #f6f7f9;
+  --combo-card-purple: #b16ee0;
+  --combo-card-purple-hover: #cfafe3;
+  --combo-card-icon-tile: #e7dcef;
+  --combo-card-quiet: #848b95;
+
+  width: min(1216px, 100%);
+  margin-inline: auto;
+  color: var(--combo-card-text);
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+
+.combo-card__grid {
+  display: grid;
+  grid-template-columns: repeat(var(--combo-card-count, 3), minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.combo-card__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  padding: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border: 1px solid var(--combo-card-border);
+  border-radius: 4px;
+}
+
+.combo-card__card.is-active {
+  cursor: pointer;
+  background: var(--combo-card-surface);
+  border-color: var(--combo-card-surface);
+}
+
+.combo-card__card.is-active:hover {
+  border-color: var(--combo-card-purple-hover);
+}
+
+.combo-card__card.is-active:active,
+.combo-card__card.is-active:focus-visible {
+  border-color: var(--combo-card-purple);
+  box-shadow: inset 0 0 0 1px var(--combo-card-purple);
+  outline: none;
+}
+
+.combo-card__card.is-arrow {
+  flex-direction: row;
+  align-items: stretch;
+  padding-top: 15px;
+  padding-bottom: 17px;
+}
+
+.combo-card__card.is-horizontal .combo-card__top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.combo-card__top,
+.combo-card__copy,
+.combo-card__copy-block {
+  width: 100%;
+}
+
+.combo-card__copy {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px;
+}
+
+.combo-card__card.is-horizontal .combo-card__copy {
+  padding: 0 0 0 16px;
+}
+
+.combo-card__card.is-arrow .combo-card__copy {
+  flex: 1 1 auto;
+}
+
+.combo-card__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--combo-card-surface);
+}
+
+.combo-card__media--photo {
+  height: 210px;
+  margin-bottom: 21px;
+}
+
+.combo-card--count-2 .combo-card__media--photo {
+  height: 208px;
+}
+
+.combo-card--count-4 .combo-card__media--photo {
+  height: 160px;
+}
+
+.combo-card__media--product {
+  height: 242px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.combo-card--count-4 .combo-card__media--product {
+  height: 172px;
+}
+
+.combo-card__media--thumb {
+  flex: 0 0 122px;
+  width: 122px;
+  height: 122px;
+  margin-bottom: 0;
+}
+
+.combo-card__media--icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 16px;
+  background: var(--combo-card-icon-tile);
+}
+
+.combo-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.combo-card__media--product img {
+  object-fit: contain;
+}
+
+.combo-card__media--icon img {
+  width: 32%;
+  height: 32%;
+  object-fit: cover;
+}
+
+.combo-card__overline {
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-image: linear-gradient(93.39deg, #8637ba, #0067b9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.combo-card__title,
+.combo-card__title-link {
+  display: block;
+  margin: 0 0 11px;
+  color: var(--combo-card-text);
+  font-family: Barlow, 'Source Sans 3', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.combo-card__title--compact,
+.combo-card__title-link.combo-card__title--compact {
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.combo-card__title--solo {
+  margin-bottom: 0;
+}
+
+.combo-card__title-link {
+  color: var(--combo-card-blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.combo-card__title-link:hover {
+  color: var(--combo-card-blue-hover);
+}
+
+.combo-card__title-link:active,
+.combo-card__title-link:focus-visible {
+  color: var(--combo-card-blue);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--combo-card-purple);
+}
+
+.combo-card__logo {
+  display: block;
+  height: 36px;
+  width: auto;
+  max-width: 100%;
+  margin: 8px 0 12px;
+}
+
+.combo-card__body {
+  width: 100%;
+  margin: 0 0 18px;
+  color: var(--combo-card-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.combo-card__body p {
+  margin: 0;
+}
+
+.combo-card__body ul {
+  margin: 8px 0 2px;
+  padding-left: 19px;
+}
+
+.combo-card__body li {
+  margin-bottom: 8px;
+}
+
+.combo-card__card.is-arrow .combo-card__body,
+.combo-card--variations .combo-card__body {
+  margin-bottom: 8px;
+}
+
+.combo-card__card.is-active:not(.is-arrow) .combo-card__body {
+  margin-bottom: 10px;
+}
+
+.combo-card__ghost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 4px;
+  border-radius: 4px;
+  color: var(--combo-card-text);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.combo-card__ghost:hover {
+  background: var(--combo-card-border);
+}
+
+.combo-card__ghost:active,
+.combo-card__ghost:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--combo-card-purple);
+}
+
+.combo-card__actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  padding: 0 8px 8px;
+}
+
+.combo-card__button,
+.combo-card__icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 8px;
+  border: 0;
+  border-radius: 4px;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.combo-card__button {
+  flex: 1 1 0;
+  width: 100%;
+}
+
+.combo-card--count-2 .combo-card__button,
+.combo-card--count-4 .combo-card__button {
+  flex: 0 1 auto;
+  width: auto;
+}
+
+.combo-card__button--outline {
+  color: var(--combo-card-blue);
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--combo-card-blue);
+}
+
+.combo-card__button--outline:hover {
+  color: var(--combo-card-blue-hover);
+  box-shadow: inset 0 0 0 1px var(--combo-card-blue-hover);
+}
+
+.combo-card__button--filled {
+  color: #fff;
+  background: var(--combo-card-blue);
+  box-shadow: none;
+}
+
+.combo-card__button--filled:hover {
+  background: var(--combo-card-blue-hover);
+  color: #fff;
+}
+
+.combo-card__button--quiet {
+  color: var(--combo-card-text);
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--combo-card-quiet);
+}
+
+.combo-card__button--quiet:hover {
+  box-shadow: inset 0 0 0 1px var(--combo-card-text);
+}
+
+.combo-card__button:active,
+.combo-card__button:focus-visible,
+.combo-card__icon-button:active,
+.combo-card__icon-button:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--combo-card-purple);
+}
+
+.combo-card__icon-button {
+  flex: 0 0 auto;
+  width: 40px;
+  padding: 8px;
+  color: var(--combo-card-text);
+  background: transparent;
+}
+
+.combo-card__icon {
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+}
+
+.combo-card__arrow {
+  display: flex;
+  align-items: flex-end;
+  flex: 0 0 32px;
+  width: 32px;
+  margin-left: 8px;
+  color: var(--combo-card-text);
+}
+
+.combo-card__empty {
+  padding: 24px;
+  border: 1px dashed var(--combo-card-border);
+  border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+  .combo-card__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .combo-card__card,
+  .combo-card__button,
+  .combo-card__ghost,
+  .combo-card__title-link {
+    transition: none;
+  }
+}

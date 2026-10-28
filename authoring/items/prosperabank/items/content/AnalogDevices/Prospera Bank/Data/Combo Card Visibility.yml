@@ -1,0 +1,13 @@
+---
+ID: "0171ce1c-8739-4526-8565-ce6899bb7ce9"
+Parent: "5c48bd53-e997-45fc-b318-672cfa349bb3"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/AnalogDevices/Prospera Bank/Data/Combo Card Visibility
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d719022-3051-45a2-a105-6ccacdd5a615"

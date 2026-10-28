@@ -1,0 +1,25 @@
+---
+ID: "826fba4a-6d5b-4927-bf2e-48f851a2ffb5"
+Parent: "a0c87363-b21c-46ca-b034-a2fefe28f72a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/AnalogDevices/Components/Combo Card/Card 3/GhostLink3A
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Ghost link 1
+
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3f26bc6-0d75-414f-b56d-860afd682888"

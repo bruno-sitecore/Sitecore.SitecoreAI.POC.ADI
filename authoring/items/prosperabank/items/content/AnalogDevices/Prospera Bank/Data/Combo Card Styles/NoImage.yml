@@ -1,0 +1,18 @@
+---
+ID: "ab0730b0-0491-4dd7-812e-62bfad69dbd5"
+Parent: "dbcd5c6d-a5e9-4e64-8f3b-acae468750e2"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/AnalogDevices/Prospera Bank/Data/Combo Card Styles/NoImage
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: No image
+
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d92dab83-d83c-46b3-acd0-026b162d82c2"

@@ -1,0 +1,13 @@
+---
+ID: "3aba009e-c171-4e75-bc3d-36aae89a8704"
+Parent: "415f7303-c7e7-4592-b9da-79d6a5586e65"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/AnalogDevices/Prospera Bank/Presentation/Headless Variants/Combo Card/Content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88ff5d68-f39c-45eb-ad24-982a95d21d6b"

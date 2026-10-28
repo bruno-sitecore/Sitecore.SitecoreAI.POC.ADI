@@ -1,0 +1,32 @@
+---
+ID: "adc29909-9f4b-4eb5-aad3-20053dcf51be"
+Parent: "b5fd5a16-3f56-4456-abdf-79ea759a8986"
+Template: "b5fd5a16-3f56-4456-abdf-79ea759a8986"
+Path: /sitecore/templates/Project/AnalogDevices/Components/Rendering Parameters/Combo Card/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3bee5c30-6965-4bce-bb77-8be8b580dd48"
+      Hint: CardCount
+      Value: "3"
+    - ID: "3c39294c-c053-4e6b-83c1-ca15b8a53aad"
+      Hint: CardStyle
+      Value: Default
+    - ID: "35e96a49-8079-4ca7-ac39-ed7ce22e603c"
+      Hint: Overline
+      Value: Default
+    - ID: "b7d3503c-e8e7-4815-bf77-21e2184b7313"
+      Hint: Title
+      Value: Default
+    - ID: "b6a38881-95f0-40d5-94eb-d8d9e2d67034"
+      Hint: Body
+      Value: Default
+    - ID: "0af01ff6-3d7f-402b-9813-3fd62cc276ef"
+      Hint: Buttons
+      Value: Default
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f61d56ab-4b21-4fcf-98fb-8dfbc31c8b71"
+

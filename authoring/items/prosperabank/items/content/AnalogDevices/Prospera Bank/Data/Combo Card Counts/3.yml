@@ -1,0 +1,13 @@
+---
+ID: "f36f3e2a-73cc-41c5-aa7a-d2f6e58d3bd6"
+Parent: "44d204e3-8645-41b3-b87b-6ff83474ace7"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/AnalogDevices/Prospera Bank/Data/Combo Card Counts/3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4fd2561a-0a9c-4528-a7a7-bdbb1b205e3c"

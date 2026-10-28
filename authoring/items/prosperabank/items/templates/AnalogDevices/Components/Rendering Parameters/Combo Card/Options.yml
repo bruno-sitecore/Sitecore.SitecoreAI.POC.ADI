@@ -1,0 +1,13 @@
+---
+ID: "7248b735-5fb0-4001-8bcf-1b179d1e68cc"
+Parent: "b5fd5a16-3f56-4456-abdf-79ea759a8986"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/AnalogDevices/Components/Rendering Parameters/Combo Card/Options
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00cb9ac8-c028-4812-966c-4692234d3196"

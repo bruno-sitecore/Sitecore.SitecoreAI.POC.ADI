@@ -1,0 +1,138 @@
+---
+ID: "63077352-bff7-4fcc-a1f7-dcc00b35bbf7"
+Parent: "76b34879-5699-41ea-8f0a-bc5dfa467b74"
+Template: "76b34879-5699-41ea-8f0a-bc5dfa467b74"
+Path: /sitecore/templates/Project/AnalogDevices/Components/Combo Card/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "f589c7dd-e827-4e11-b4c2-7224f2662899"
+      Hint: Overline1
+      Value: OUR CULTURE
+    - ID: "8bf658d5-b5bf-439c-bd79-6953e651f551"
+      Hint: Title1
+      Value: Live Your Passion
+    - ID: "310f2931-9372-4044-a708-769e201c4ac7"
+      Hint: Body1
+      Value: |
+        <p>By supporting our people and what drives them, we are changing the world together.</p>
+    - ID: "47de4dc4-070b-4cad-9fa8-fa983df2eb36"
+      Hint: PrimaryLink1
+      Value: |
+        <link text="Explore" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "934b4c82-219c-4c73-93e4-a0325ee522c6"
+      Hint: SecondaryLink1
+      Value: |
+        <link text="Careers" linktype="external" url="https://www.analog.com/careers" anchor="" target="_blank" />
+    - ID: "168ec1ce-2b6d-4f23-9c3f-9b2e6c3f152b"
+      Hint: GhostLink1A
+      Value: |
+        <link text="Product Cross-Reference" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "9b89aabc-9e7e-45d4-82c3-b6df5053e43b"
+      Hint: GhostLink1B
+      Value: |
+        <link text="Product Security Response" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "939febed-edd9-4482-a026-eb82461da380"
+      Hint: GhostLink1C
+      Value: |
+        <link text="Vulnerability Disclosure" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "79c08188-efac-45bf-9289-9da8c06c5be0"
+      Hint: FilledButton1
+      Value: 1
+    - ID: "d2155625-5f44-42c1-84b5-2f1d3522b26c"
+      Hint: Overline2
+      Value: OUR CULTURE
+    - ID: "37fb33d9-af86-4003-931a-25801e310d44"
+      Hint: Title2
+      Value: Live Your Passion
+    - ID: "996c79fa-9de1-40c8-904d-f821daa9a64e"
+      Hint: Body2
+      Value: |
+        <p>By supporting our people and what drives them, we are changing the world together.</p>
+    - ID: "c4a1e2b0-7d11-4f3a-9c21-6e8b0a11d202"
+      Hint: List2
+      Value: |
+        <ul><li><strong>Connect</strong> with like-minded members</li><li><strong>Learn</strong> new skills</li><li><strong>Engage</strong> with rich content including blogs &amp; webinars</li></ul>
+    - ID: "a8b9500c-4a5e-4610-8236-be777e523acf"
+      Hint: PrimaryLink2
+      Value: |
+        <link text="Explore" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "c221439a-91b3-4114-b128-805589772b76"
+      Hint: SecondaryLink2
+      Value: |
+        <link text="Careers" linktype="external" url="https://www.analog.com/careers" anchor="" target="_blank" />
+    - ID: "8d971a12-1add-4fcf-b220-2dc5cfd9b54c"
+      Hint: GhostLink2A
+      Value: ""
+    - ID: "239fa304-3477-48da-a88d-c02ee937fc94"
+      Hint: GhostLink2B
+      Value: ""
+    - ID: "16b242c1-f5a7-4592-b5a3-8f406460ed99"
+      Hint: GhostLink2C
+      Value: ""
+    - ID: "4c97a7a2-b47c-4b8c-96be-02936eb5e36e"
+      Hint: Overline3
+      Value: OUR CULTURE
+    - ID: "fb102d52-398f-437c-9d2c-3867d9d80b9f"
+      Hint: Title3
+      Value: Live Your Passion
+    - ID: "791929fd-0804-4678-bf6d-384a59ede7bf"
+      Hint: Body3
+      Value: |
+        <p>By supporting our people and what drives them, we are changing the world together.</p>
+    - ID: "498313b5-1994-46fa-8c4c-2ee8a020b67f"
+      Hint: PrimaryLink3
+      Value: |
+        <link text="Explore" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "a03e5df4-db44-40a3-80f2-193961f557ea"
+      Hint: SecondaryLink3
+      Value: |
+        <link text="Careers" linktype="external" url="https://www.analog.com/careers" anchor="" target="_blank" />
+    - ID: "826fba4a-6d5b-4927-bf2e-48f851a2ffb5"
+      Hint: GhostLink3A
+      Value: |
+        <link text="Product Cross-Reference" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "9b890b72-b9ab-4ed8-a73a-b548a78b76d1"
+      Hint: GhostLink3B
+      Value: |
+        <link text="Product Security Response" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "501450f2-9324-4ea5-85ce-db6ec2314f77"
+      Hint: GhostLink3C
+      Value: |
+        <link text="Vulnerability Disclosure" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "2963413b-06f1-4a97-acca-e44ef148f657"
+      Hint: Overline4
+      Value: OUR CULTURE
+    - ID: "16ff815f-2709-4428-903a-da2782ede0dc"
+      Hint: Title4
+      Value: Live Your Passion
+    - ID: "35aecee2-c218-4b23-b18e-ff7b28fc6d0e"
+      Hint: Body4
+      Value: |
+        <p>By supporting our people and what drives them, we are changing the world together.</p>
+    - ID: "80f42f48-319d-4af9-955b-82d0e5b44a79"
+      Hint: PrimaryLink4
+      Value: |
+        <link text="Explore" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "181fd29d-ca00-4247-8e17-03a19128228f"
+      Hint: SecondaryLink4
+      Value: |
+        <link text="Careers" linktype="external" url="https://www.analog.com/careers" anchor="" target="_blank" />
+    - ID: "4637003e-e0b1-4604-8c8e-55c3a3d84a4e"
+      Hint: GhostLink4A
+      Value: |
+        <link text="Product Cross-Reference" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "d79c6994-7555-4d52-8bc0-4e3b3a35e07d"
+      Hint: GhostLink4B
+      Value: |
+        <link text="Product Security Response" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "81b7bd8f-f0e4-4d68-970e-a41ffaaaa38c"
+      Hint: GhostLink4C
+      Value: |
+        <link text="Vulnerability Disclosure" linktype="external" url="https://www.analog.com" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e740730-a590-4c6c-b496-e6a32cc3f9d5"
+

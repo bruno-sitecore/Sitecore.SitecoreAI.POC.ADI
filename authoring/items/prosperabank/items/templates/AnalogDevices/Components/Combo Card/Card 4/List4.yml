@@ -1,0 +1,24 @@
+---
+ID: "c4a1e2b0-7d11-4f3a-9c21-6e8b0a11d204"
+Parent: "704d52bd-1658-414c-ae68-58fe8b042f7a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/AnalogDevices/Components/Combo Card/Card 4/List4
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Rich Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 550
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: List
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d11e0a22-6c44-4b8e-9f10-2a77c0b1e304"
