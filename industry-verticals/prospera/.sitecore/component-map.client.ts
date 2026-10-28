@@ -59,6 +59,7 @@ import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as Eyebrow from 'src/components/navigation/Eyebrow';
 import * as Breadcrumb from 'src/components/navigation/Breadcrumb';
+import * as Image from 'src/components/media/Image';
 import * as SuggestionBlock from 'src/components/legacysearch/SuggestionBlock';
 import * as SortOrder from 'src/components/legacysearch/SortOrder';
 import * as SearchResultsComponent from 'src/components/legacysearch/SearchResultsComponent';
@@ -133,6 +134,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Footer', { ...Footer }],
   ['Eyebrow', { ...Eyebrow }],
   ['Breadcrumb', { ...Breadcrumb }],
+  ['Image', { ...Image }],
   ['SuggestionBlock', { ...SuggestionBlock }],
   ['SortOrder', { ...SortOrder }],
   ['SearchResultsComponent', { ...SearchResultsComponent }],

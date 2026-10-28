@@ -141,7 +141,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Eyebrow', { ...Eyebrow, componentType: 'client' }],
   ['Breadcrumb', { ...Breadcrumb, componentType: 'client' }],
   ['image', { ...Imageprops }],
-  ['Image', { ...Image }],
+  ['Image', { ...Image, componentType: 'client' }],
   ['SuggestionBlock', { ...SuggestionBlock, componentType: 'client' }],
   ['Spinner', { ...Spinner }],
   ['SortOrder', { ...SortOrder, componentType: 'client' }],

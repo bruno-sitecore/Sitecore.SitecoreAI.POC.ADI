@@ -9,10 +9,8 @@ import {
 
 import { jsx, jsxs } from 'react/jsx-runtime';
 import React from 'react';
-import { Placeholder, AppPlaceholder, NextImage, Text } from '@sitecore-content-sdk/nextjs';
+import { Placeholder, AppPlaceholder } from '@sitecore-content-sdk/nextjs';
 import componentMap from '.sitecore/component-map';
-import { CompatibleLink } from 'components/content-sdk/CompatibleLink';
-import { getFieldValue } from 'lib/component-props';
 
 const importMap = [
   {
@@ -33,26 +31,12 @@ const importMap = [
     exports: [
       { name: 'Placeholder', value: Placeholder },
       { name: 'AppPlaceholder', value: AppPlaceholder },
-      { name: 'NextImage', value: NextImage },
-      { name: 'Text', value: Text },
     ]
   },
   {
     module: '.sitecore/component-map',
     exports: [
       { name: 'default', value: componentMap },
-    ]
-  },
-  {
-    module: 'components/content-sdk/CompatibleLink',
-    exports: [
-      { name: 'CompatibleLink', value: CompatibleLink },
-    ]
-  },
-  {
-    module: 'lib/component-props',
-    exports: [
-      { name: 'getFieldValue', value: getFieldValue },
     ]
   }
 ] as ImportEntry[];

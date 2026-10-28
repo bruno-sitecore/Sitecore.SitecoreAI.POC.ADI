@@ -36,6 +36,8 @@ import { getCookieValueClientSide } from '@sitecore-content-sdk/analytics-core/u
 import { fetchProfileIdFromEdgeProxy } from '@sitecore-content-sdk/personalize/internal';
 import config from 'sitecore.config';
 import { clearSessionEvents, installSessionEventTracking, readSessionEvents, SESSION_EVENTS_CHANGED } from 'lib/session-event-log';
+import { CompatibleLink } from 'components/content-sdk/CompatibleLink';
+import { getFieldValue } from 'lib/component-props';
 import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, PageController, WidgetsProvider, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
 import { PreviewSearch, SortSelect, Pagination as Pagination_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7, AccordionFacets, FacetItem, RangeFacet, SearchResultsAccordionFacets, SearchResultsFacetValueRange, Select, ArticleCard, CardViewSwitcher as CardViewSwitcher_b6c381477cbf12fc0dc4f9aeb9e8e41e943b6ea7 } from '@sitecore-search/ui';
 import { GridIcon, ListBulletIcon, ArrowLeftIcon, ArrowRightIcon, CheckIcon, ChevronDownIcon } from '@radix-ui/react-icons';
@@ -263,6 +265,18 @@ const importMap = [
       { name: 'installSessionEventTracking', value: installSessionEventTracking },
       { name: 'readSessionEvents', value: readSessionEvents },
       { name: 'SESSION_EVENTS_CHANGED', value: SESSION_EVENTS_CHANGED },
+    ]
+  },
+  {
+    module: 'components/content-sdk/CompatibleLink',
+    exports: [
+      { name: 'CompatibleLink', value: CompatibleLink },
+    ]
+  },
+  {
+    module: 'lib/component-props',
+    exports: [
+      { name: 'getFieldValue', value: getFieldValue },
     ]
   },
   {

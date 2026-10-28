@@ -1,3 +1,5 @@
+'use client';
+
 import {
   NextImage as ContentSdkImage,
   Text, Field, ImageField, LinkField
@@ -22,7 +24,6 @@ export interface ImageWrapperProps {
   id?: string;
   children: React.ReactNode;
 }
-
 
 const ImageWrapper: React.FC<ImageWrapperProps> = ({ className, id, children }) => (
   <figure className={className.trim()} id={id}>
