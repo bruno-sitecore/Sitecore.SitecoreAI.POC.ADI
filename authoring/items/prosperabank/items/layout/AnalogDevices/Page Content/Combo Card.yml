@@ -1,4 +1,4 @@
----
+﻿---
 ID: "12f16a30-f3c1-417e-a3ac-1f235a5e612b"
 Parent: "41452cad-79a8-4389-bd0f-52e1ebe7a8f9"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
@@ -9,7 +9,7 @@ SharedFields:
   Value: ComboCard
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/components.png
+  Value: Office/32x32/add_field.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/AnalogDevices/Components/Combo Card
@@ -22,6 +22,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "query:$site/*[@@name='Data']/*[@@templatename='Promo Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Promo Folder']"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "caaab172-6a0e-40bd-879b-a7061677b931"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsAutoDatasourceRendering=true
@@ -30,6 +33,20 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20261028T144145Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b9e8a642-b0c0-4aa3-996b-8f92b9b8ce00"
+      Value: "33ed2690-056f-467d-90f3-82e6c88ab34f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261028T144145Z
