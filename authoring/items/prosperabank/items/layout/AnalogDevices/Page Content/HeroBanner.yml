@@ -15,7 +15,7 @@ SharedFields:
   Value: Office/32x32/monitor_width.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Financial/Components/HeroBanner
+  Value: /sitecore/templates/Project/AnalogDevices/Components/HeroBanner
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -27,7 +27,7 @@ SharedFields:
   Value: "query:$site/*[@@name='Data']/*[@@templatename='HeroBanner']|query:$sharedSites/*[@@name='Data']/*[@@templatename='HeroBanner']"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "70ffd1d8-8f7f-498b-b895-94f46f61cbaa"
+  Value: "fdb0e061-a871-442b-8604-72ad5fbe425c"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
@@ -56,14 +56,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "db1afc96-1ae2-4e98-ab8f-797d0cfe9f18"
+      Value: "562ecb17-d319-48d8-932b-a42d07ec8f59"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T170612Z
+      Value: 20261028T131411Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

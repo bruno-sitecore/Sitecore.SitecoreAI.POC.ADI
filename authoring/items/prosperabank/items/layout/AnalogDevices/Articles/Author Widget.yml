@@ -15,7 +15,7 @@ SharedFields:
   Value: Network/32x32/id_card.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Financial/Pages/Author Page
+  Value: /sitecore/templates/Project/AnalogDevices/Pages/Author Page
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -36,7 +36,7 @@ SharedFields:
   Value: 300
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "24bfe717-00ab-47ad-b3d2-f5513e134a0e"
+  Value: "df7b4814-5137-4063-a27a-59f3446a124a"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -62,14 +62,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c31a6a63-0657-4cc9-904f-0d7f8e13ec95"
+      Value: "41108400-5587-4f8e-8641-65d73cb1f4f5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\kaitlyn.folsom@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251031T193300Z
+      Value: 20261028T131803Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

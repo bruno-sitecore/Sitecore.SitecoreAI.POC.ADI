@@ -12,7 +12,7 @@ SharedFields:
   Value: Office/32x32/atom2.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Project/Financial/Components/Parallax Banner
+  Value: /sitecore/templates/Project/AnalogDevices/Components/Parallax Banner
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -24,7 +24,7 @@ SharedFields:
   Value: "query:$site/*[@@name='Data']/*[@@templatename='Parallax Banner']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Parallax Banner']"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "89658196-a856-4dbf-88f9-7bac51776298"
+  Value: "67049983-ac3d-4f81-8fcc-18610be4d590"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
@@ -53,14 +53,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "941a19fd-905a-4c78-aeae-bf2deecc2e75"
+      Value: "6f6510a1-cc8a-4e69-b0e9-350a07e5d420"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251031T194015Z
+      Value: 20261028T131421Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
